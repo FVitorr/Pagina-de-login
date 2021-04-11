@@ -1,0 +1,86 @@
+body {margin: 0; /** adiciona margem ao elemento **/
+    padding: 0; /** adiciona expassamento interno ao bloco **/
+    background-image: url(imagens/background.jpg);
+    background-size: cover; /** especifica o tamanho da imagem  cover-Ajusta a 
+    imagem o mais largamente possível e mantém sua proporção**/    
+}
+.login {
+    width: 360px;
+    height: 420px;
+    border: 2px solid #000; /** tipo de borda**/
+    border-radius: 0px 80px 0px 80px;
+    color:black;
+    background-color:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+}
+.user{
+    border-radius: 100%;
+    position: absolute;
+    top: -50;
+    left: 116px;
+}
+.login h1 {color:greenyellow;
+    margin:0;
+    padding-top:0 ;
+    padding-left:0 ;
+    padding-bottom:20px;
+    letter-spacing: 10px; /** específica o comportamento do espaçamento entre caracteres de texto **/
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p {   
+    color:white;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom:21px ;
+}
+
+.login input[type="text"] ,input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none; /**propriedade abreviada para configurar uma ou mais das propriedades de contorno **/
+    height: 40px;
+    color:white;
+    font-size: 16px;
+}
+
+.login input[type="subimit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition:0.2s;
+}
+
+.login input[type="subimit"] {
+    cursor: pointer;
+    background: #ff4d4d;
+    transition: 0.2s;
+}
+.login a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size:16px;
+    line-height:20px ;
+    columns: #bb4444;
+    transition: 0.2s;
+}
+.login a:hover {
+    transition:0.2s;
+    color:pink;
+}
