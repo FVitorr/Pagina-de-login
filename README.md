@@ -1,2 +1,2 @@
 # Pagina Simples de Login 
-{@} Use Livremente Abraços a Familia <3
+{@} Use Livremente, Abraços da Familia <3
